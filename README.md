@@ -1,12 +1,12 @@
 #  Quotelic
-**Browse, curate, and create your own quotes to scroll through and read.**
+**Browse, curate, and create your own quotes to scroll through and read on iOS.**
 
-Built with SwiftUI and SwiftData
+Built with SwiftUI and SwiftData.
 
 ---
 
-**Sources:**
+### Sources:
 
-Dataset name: english_quotes
-Source: https://huggingface.co/datasets/Abirate/english_quotes
+Dataset name: english_quotes  
+Source: https://huggingface.co/datasets/Abirate/english_quotes  
 License: CC BY-SA 4.0
