@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A07CAA32C51C18B00FB44B6 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3438352C4F02C100CD5427 /* AuthorView.swift */; };
+		5A1C1EB32BFB8A0C00D21C98 /* quotes.jsonl in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C1EB22BFB8A0C00D21C98 /* quotes.jsonl */; };
+		5A3438342C4EF55000CD5427 /* AuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3438332C4EF55000CD5427 /* AuthorListView.swift */; };
+		5A34383A2C4F56A000CD5427 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3438392C4F56A000CD5427 /* Author.swift */; };
+		5A34383C2C4F56C400CD5427 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34383B2C4F56C300CD5427 /* Tag.swift */; };
+		5A34383E2C4F59C400CD5427 /* quotes-v2.store in Resources */ = {isa = PBXBuildFile; fileRef = 5A34383D2C4F59C300CD5427 /* quotes-v2.store */; };
+		5A4E82B02BF56F0100B33E58 /* QuotelicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82AF2BF56F0100B33E58 /* QuotelicApp.swift */; };
+		5A4E82B62BF56F0300B33E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E82B52BF56F0300B33E58 /* Assets.xcassets */; };
+		5A4E82B92BF56F0300B33E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E82B82BF56F0300B33E58 /* Preview Assets.xcassets */; };
+		5A4E82C32BF56F0400B33E58 /* QuotelicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82C22BF56F0400B33E58 /* QuotelicTests.swift */; };
+		5A4E82CD2BF56F0400B33E58 /* QuotelicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82CC2BF56F0400B33E58 /* QuotelicUITests.swift */; };
+		5A4E82CF2BF56F0400B33E58 /* QuotelicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82CE2BF56F0400B33E58 /* QuotelicUITestsLaunchTests.swift */; };
+		5A4E82DC2BF5739E00B33E58 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82DB2BF5739E00B33E58 /* Quote.swift */; };
+		5A4E82DE2BF5863100B33E58 /* QuoteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82DD2BF5863100B33E58 /* QuoteEditor.swift */; };
+		5A4E82E22BF5CF6000B33E58 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82E12BF5CF6000B33E58 /* QuoteView.swift */; };
+		5A74E06A2C48A813003F48CB /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A74E0672C48A124003F48CB /* QuoteListView.swift */; };
+		5A866FA02C30A9BC006F04F8 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A866F9F2C30A9BC006F04F8 /* QuoteRowView.swift */; };
+		5A866FA32C30D6BA006F04F8 /* QuoteFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A866FA22C30D6BA006F04F8 /* QuoteFullView.swift */; };
+		5A866FA82C3F5665006F04F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E82B12BF56F0100B33E58 /* ContentView.swift */; };
+		5AFAF7E42C94AC1400AD5336 /* StoreManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAF7E32C94AC1400AD5336 /* StoreManage.swift */; };
+		5AFAF7EA2C99E19200AD5336 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAF7E92C99E19200AD5336 /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4E82BF2BF56F0400B33E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4E82A42BF56F0100B33E58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4E82AB2BF56F0100B33E58;
+			remoteInfo = Quotelic;
+		};
+		5A4E82C92BF56F0400B33E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4E82A42BF56F0100B33E58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4E82AB2BF56F0100B33E58;
+			remoteInfo = Quotelic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1C1EB22BFB8A0C00D21C98 /* quotes.jsonl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = quotes.jsonl; path = "../../../../Data and Assets/english_quotes/quotes.jsonl"; sourceTree = "<group>"; };
+		5A3438332C4EF55000CD5427 /* AuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListView.swift; sourceTree = "<group>"; };
+		5A3438352C4F02C100CD5427 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		5A3438392C4F56A000CD5427 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		5A34383B2C4F56C300CD5427 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		5A34383D2C4F59C300CD5427 /* quotes-v2.store */ = {isa = PBXFileReference; lastKnownFileType = file; path = "quotes-v2.store"; sourceTree = "<group>"; };
+		5A4E82AC2BF56F0100B33E58 /* Quotelic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotelic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E82AF2BF56F0100B33E58 /* QuotelicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelicApp.swift; sourceTree = "<group>"; };
+		5A4E82B12BF56F0100B33E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A4E82B52BF56F0300B33E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4E82B82BF56F0300B33E58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A4E82BE2BF56F0400B33E58 /* QuotelicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotelicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E82C22BF56F0400B33E58 /* QuotelicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelicTests.swift; sourceTree = "<group>"; };
+		5A4E82C82BF56F0400B33E58 /* QuotelicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotelicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E82CC2BF56F0400B33E58 /* QuotelicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelicUITests.swift; sourceTree = "<group>"; };
+		5A4E82CE2BF56F0400B33E58 /* QuotelicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A4E82DB2BF5739E00B33E58 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		5A4E82DD2BF5863100B33E58 /* QuoteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteEditor.swift; sourceTree = "<group>"; };
+		5A4E82E12BF5CF6000B33E58 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		5A74E0672C48A124003F48CB /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
+		5A866F9F2C30A9BC006F04F8 /* QuoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRowView.swift; sourceTree = "<group>"; };
+		5A866FA22C30D6BA006F04F8 /* QuoteFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFullView.swift; sourceTree = "<group>"; };
+		5A866FA62C3DB1D0006F04F8 /* quotes.store */ = {isa = PBXFileReference; lastKnownFileType = file; path = quotes.store; sourceTree = "<group>"; };
+		5AFAF7E32C94AC1400AD5336 /* StoreManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManage.swift; sourceTree = "<group>"; };
+		5AFAF7E92C99E19200AD5336 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4E82A92BF56F0100B33E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82BB2BF56F0400B33E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82C52BF56F0400B33E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4E82A32BF56F0100B33E58 = {
+			isa = PBXGroup;
+			children = (
+				5A4E82AE2BF56F0100B33E58 /* Quotelic */,
+				5A4E82C12BF56F0400B33E58 /* QuotelicTests */,
+				5A4E82CB2BF56F0400B33E58 /* QuotelicUITests */,
+				5A4E82AD2BF56F0100B33E58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4E82AD2BF56F0100B33E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E82AC2BF56F0100B33E58 /* Quotelic.app */,
+				5A4E82BE2BF56F0400B33E58 /* QuotelicTests.xctest */,
+				5A4E82C82BF56F0400B33E58 /* QuotelicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4E82AE2BF56F0100B33E58 /* Quotelic */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E82AF2BF56F0100B33E58 /* QuotelicApp.swift */,
+				5A4E82B12BF56F0100B33E58 /* ContentView.swift */,
+				5AFAF7E92C99E19200AD5336 /* MenuView.swift */,
+				5A74E0672C48A124003F48CB /* QuoteListView.swift */,
+				5A3438332C4EF55000CD5427 /* AuthorListView.swift */,
+				5A4E82E12BF5CF6000B33E58 /* QuoteView.swift */,
+				5A3438352C4F02C100CD5427 /* AuthorView.swift */,
+				5A866F9F2C30A9BC006F04F8 /* QuoteRowView.swift */,
+				5A866FA22C30D6BA006F04F8 /* QuoteFullView.swift */,
+				5A4E82DD2BF5863100B33E58 /* QuoteEditor.swift */,
+				5AFAF7E32C94AC1400AD5336 /* StoreManage.swift */,
+				5A4E82DB2BF5739E00B33E58 /* Quote.swift */,
+				5A3438392C4F56A000CD5427 /* Author.swift */,
+				5A34383B2C4F56C300CD5427 /* Tag.swift */,
+				5A34383D2C4F59C300CD5427 /* quotes-v2.store */,
+				5A866FA62C3DB1D0006F04F8 /* quotes.store */,
+				5A1C1EB22BFB8A0C00D21C98 /* quotes.jsonl */,
+				5A4E82B52BF56F0300B33E58 /* Assets.xcassets */,
+				5A4E82B72BF56F0300B33E58 /* Preview Content */,
+			);
+			path = Quotelic;
+			sourceTree = "<group>";
+		};
+		5A4E82B72BF56F0300B33E58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E82B82BF56F0300B33E58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A4E82C12BF56F0400B33E58 /* QuotelicTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E82C22BF56F0400B33E58 /* QuotelicTests.swift */,
+			);
+			path = QuotelicTests;
+			sourceTree = "<group>";
+		};
+		5A4E82CB2BF56F0400B33E58 /* QuotelicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4E82CC2BF56F0400B33E58 /* QuotelicUITests.swift */,
+				5A4E82CE2BF56F0400B33E58 /* QuotelicUITestsLaunchTests.swift */,
+			);
+			path = QuotelicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4E82AB2BF56F0100B33E58 /* Quotelic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E82D22BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "Quotelic" */;
+			buildPhases = (
+				5A4E82A82BF56F0100B33E58 /* Sources */,
+				5A4E82A92BF56F0100B33E58 /* Frameworks */,
+				5A4E82AA2BF56F0100B33E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quotelic;
+			productName = Quotelic;
+			productReference = 5A4E82AC2BF56F0100B33E58 /* Quotelic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4E82BD2BF56F0400B33E58 /* QuotelicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E82D52BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "QuotelicTests" */;
+			buildPhases = (
+				5A4E82BA2BF56F0400B33E58 /* Sources */,
+				5A4E82BB2BF56F0400B33E58 /* Frameworks */,
+				5A4E82BC2BF56F0400B33E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4E82C02BF56F0400B33E58 /* PBXTargetDependency */,
+			);
+			name = QuotelicTests;
+			productName = QuotelicTests;
+			productReference = 5A4E82BE2BF56F0400B33E58 /* QuotelicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4E82C72BF56F0400B33E58 /* QuotelicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4E82D82BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "QuotelicUITests" */;
+			buildPhases = (
+				5A4E82C42BF56F0400B33E58 /* Sources */,
+				5A4E82C52BF56F0400B33E58 /* Frameworks */,
+				5A4E82C62BF56F0400B33E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4E82CA2BF56F0400B33E58 /* PBXTargetDependency */,
+			);
+			name = QuotelicUITests;
+			productName = QuotelicUITests;
+			productReference = 5A4E82C82BF56F0400B33E58 /* QuotelicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4E82A42BF56F0100B33E58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5A4E82AB2BF56F0100B33E58 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5A4E82BD2BF56F0400B33E58 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5A4E82AB2BF56F0100B33E58;
+					};
+					5A4E82C72BF56F0400B33E58 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5A4E82AB2BF56F0100B33E58;
+					};
+				};
+			};
+			buildConfigurationList = 5A4E82A72BF56F0100B33E58 /* Build configuration list for PBXProject "Quotelic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4E82A32BF56F0100B33E58;
+			productRefGroup = 5A4E82AD2BF56F0100B33E58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4E82AB2BF56F0100B33E58 /* Quotelic */,
+				5A4E82BD2BF56F0400B33E58 /* QuotelicTests */,
+				5A4E82C72BF56F0400B33E58 /* QuotelicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4E82AA2BF56F0100B33E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A34383E2C4F59C400CD5427 /* quotes-v2.store in Resources */,
+				5A1C1EB32BFB8A0C00D21C98 /* quotes.jsonl in Resources */,
+				5A4E82B92BF56F0300B33E58 /* Preview Assets.xcassets in Resources */,
+				5A4E82B62BF56F0300B33E58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82BC2BF56F0400B33E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82C62BF56F0400B33E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4E82A82BF56F0100B33E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A866FA32C30D6BA006F04F8 /* QuoteFullView.swift in Sources */,
+				5A3438342C4EF55000CD5427 /* AuthorListView.swift in Sources */,
+				5AFAF7E42C94AC1400AD5336 /* StoreManage.swift in Sources */,
+				5A866FA82C3F5665006F04F8 /* ContentView.swift in Sources */,
+				5A4E82DC2BF5739E00B33E58 /* Quote.swift in Sources */,
+				5A4E82DE2BF5863100B33E58 /* QuoteEditor.swift in Sources */,
+				5AFAF7EA2C99E19200AD5336 /* MenuView.swift in Sources */,
+				5A34383A2C4F56A000CD5427 /* Author.swift in Sources */,
+				5A866FA02C30A9BC006F04F8 /* QuoteRowView.swift in Sources */,
+				5A4E82E22BF5CF6000B33E58 /* QuoteView.swift in Sources */,
+				5A07CAA32C51C18B00FB44B6 /* AuthorView.swift in Sources */,
+				5A74E06A2C48A813003F48CB /* QuoteListView.swift in Sources */,
+				5A4E82B02BF56F0100B33E58 /* QuotelicApp.swift in Sources */,
+				5A34383C2C4F56C400CD5427 /* Tag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82BA2BF56F0400B33E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E82C32BF56F0400B33E58 /* QuotelicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4E82C42BF56F0400B33E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4E82CF2BF56F0400B33E58 /* QuotelicUITestsLaunchTests.swift in Sources */,
+				5A4E82CD2BF56F0400B33E58 /* QuotelicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4E82C02BF56F0400B33E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4E82AB2BF56F0100B33E58 /* Quotelic */;
+			targetProxy = 5A4E82BF2BF56F0400B33E58 /* PBXContainerItemProxy */;
+		};
+		5A4E82CA2BF56F0400B33E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4E82AB2BF56F0100B33E58 /* Quotelic */;
+			targetProxy = 5A4E82C92BF56F0400B33E58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A4E82D02BF56F0400B33E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4E82D12BF56F0400B33E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4E82D32BF56F0400B33E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quotelic/Preview Content\"";
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.Quotelic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4E82D42BF56F0400B33E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quotelic/Preview Content\"";
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.Quotelic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4E82D62BF56F0400B33E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.QuotelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotelic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quotelic";
+			};
+			name = Debug;
+		};
+		5A4E82D72BF56F0400B33E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.QuotelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotelic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quotelic";
+			};
+			name = Release;
+		};
+		5A4E82D92BF56F0400B33E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.QuotelicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quotelic;
+			};
+			name = Debug;
+		};
+		5A4E82DA2BF56F0400B33E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X23JF3FGSY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mottotelic.QuotelicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quotelic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4E82A72BF56F0100B33E58 /* Build configuration list for PBXProject "Quotelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E82D02BF56F0400B33E58 /* Debug */,
+				5A4E82D12BF56F0400B33E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E82D22BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "Quotelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E82D32BF56F0400B33E58 /* Debug */,
+				5A4E82D42BF56F0400B33E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E82D52BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "QuotelicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E82D62BF56F0400B33E58 /* Debug */,
+				5A4E82D72BF56F0400B33E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4E82D82BF56F0400B33E58 /* Build configuration list for PBXNativeTarget "QuotelicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E82D92BF56F0400B33E58 /* Debug */,
+				5A4E82DA2BF56F0400B33E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4E82A42BF56F0100B33E58 /* Project object */;
+}
